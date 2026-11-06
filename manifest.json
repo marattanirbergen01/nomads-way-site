@@ -1,0 +1,35 @@
+{
+    "name": "Nomad's Way",
+    "short_name": "Nomad's Way",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#2A2019",
+    "theme_color": "#2A2019",
+    "description": "Қазақстан тарихы, ҰБТ · История Казахстана, ЕНТ",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

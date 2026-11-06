@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "avatars": [
+    {
+      "look": 1,
+      "id": "avatar_01_zhylqyshy",
+      "season": "s1",
+      "emotions": [
+        "calm",
+        "joy",
+        "alarm",
+        "sorrow"
+      ],
+      "aspect": 0.7770833333333333,
+      "faceY": 0.30124999999999996
+    },
+    {
+      "look": 2,
+      "id": "avatar_02_aqyn",
+      "season": "s1",
+      "emotions": [
+        "calm",
+        "joy",
+        "alarm",
+        "sorrow"
+      ],
+      "aspect": 0.7770833333333333,
+      "faceY": 0.35666666666666663
+    },
+    {
+      "look": 3,
+      "id": "avatar_03_ustaqyz",
+      "season": "s1",
+      "emotions": [
+        "calm",
+        "joy",
+        "alarm",
+        "sorrow"
+      ],
+      "aspect": 0.7770833333333333,
+      "faceY": 0.34479166666666666
+    }
+  ],
+  "characters": [
+    {
+      "id": "char_aksakal",
+      "season": "s1"
+    },
+    {
+      "id": "char_kerei",
+      "season": "s1"
+    },
+    {
+      "id": "char_zhanibek",
+      "season": "s1"
+    },
+    {
+      "id": "char_abilqaiyr",
+      "season": "s1"
+    },
+    {
+      "id": "char_burundyq",
+      "season": "s1"
+    },
+    {
+      "id": "char_qasym",
+      "season": "s1"
+    },
+    {
+      "id": "char_qasym_khan",
+      "season": "s1"
+    },
+    {
+      "id": "char_shaibani",
+      "season": "s1"
+    },
+    {
+      "id": "char_mahmud",
+      "season": "s1"
+    },
+    {
+      "id": "char_ruzbihan",
+      "season": "s1"
+    },
+    {
+      "id": "char_ubaidulla",
+      "season": "s1"
+    },
+    {
+      "id": "char_seiit",
+      "season": "s1"
+    },
+    {
+      "id": "char_dana",
+      "season": "s1"
+    },
+    {
+      "id": "char_temir",
+      "season": "s1"
+    },
+    {
+      "id": "char_beket",
+      "season": "s1"
+    },
+    {
+      "id": "char_esaul",
+      "season": "s1"
+    },
+    {
+      "id": "char_rider",
+      "season": "s1"
+    },
+    {
+      "id": "char_mamash",
+      "season": "s1"
+    },
+    {
+      "id": "char_said",
+      "season": "s1"
+    },
+    {
+      "id": "char_dulati",
+      "season": "s1"
+    },
+    {
+      "id": "char_dospambet",
+      "season": "s1"
+    },
+    {
+      "id": "char_tahir",
+      "season": "s1"
+    },
+    {
+      "id": "char_haqnazar",
+      "season": "s1"
+    },
+    {
+      "id": "char_shalkiiz",
+      "season": "s1"
+    },
+    {
+      "id": "char_abdallah",
+      "season": "s1"
+    },
+    {
+      "id": "char_baba",
+      "season": "s1"
+    },
+    {
+      "id": "char_son",
+      "season": "s1"
+    },
+    {
+      "id": "char_chebukov",
+      "season": "s1"
+    },
+    {
+      "id": "char_qadyrgali",
+      "season": "s1"
+    },
+    {
+      "id": "char_oraz",
+      "season": "s1"
+    },
+    {
+      "id": "char_shigai",
+      "season": "s1"
+    },
+    {
+      "id": "char_tauekel",
+      "season": "s1"
+    },
+    {
+      "id": "char_esim",
+      "season": "s1"
+    },
+    {
+      "id": "char_bii",
+      "season": "s1"
+    },
+    {
+      "id": "char_erbol",
+      "season": "s1"
+    },
+    {
+      "id": "char_bai",
+      "season": "s1"
+    },
+    {
+      "id": "char_zhaqyp",
+      "season": "s1"
+    },
+    {
+      "id": "char_diplomat",
+      "season": "s1"
+    },
+    {
+      "id": "char_guest",
+      "season": "s1"
+    },
+    {
+      "id": "char_sairam",
+      "season": "s1"
+    },
+    {
+      "id": "char_nurym",
+      "season": "s1"
+    },
+    {
+      "id": "char_bek",
+      "season": "s1"
+    },
+    {
+      "id": "char_murza",
+      "season": "s1"
+    },
+    {
+      "id": "char_aqtanker",
+      "season": "s1"
+    },
+    {
+      "id": "char_aqtanker_old",
+      "season": "s1"
+    },
+    {
+      "id": "char_aisulu",
+      "season": "s1"
+    },
+    {
+      "id": "char_clerk",
+      "season": "s1"
+    },
+    {
+      "id": "char_guide",
+      "season": "s1"
+    },
+    {
+      "id": "char_magzhan",
+      "season": "s1"
+    },
+    {
+      "id": "char_boyar",
+      "season": "s1"
+    },
+    {
+      "id": "char_buxar",
+      "season": "s1"
+    },
+    {
+      "id": "char_envoy",
+      "season": "s1"
+    },
+    {
+      "id": "char_voevoda",
+      "season": "s1"
+    }
+  ],
+  "bank": {
+    "langs": [
+      "kk",
+      "ru"
+    ],
+    "questions": 2714,
+    "single": 2350,
+    "context": 364,
+    "contexts": 72,
+    "singleOk": 2281,
+    "contextsOk": 72,
+    "media": 23,
+    "bundle": {
+      "url": "bundles/bank.zip",
+      "bytes": 1578509,
+      "sha256": "eebd02e62765e4b1734c329a77ea88b3badd699dbf21cec35ee5a75fac370b94",
+      "contentHash": "98cce9de2cadbc8e",
+      "files": 24
+    }
+  },
+  "bundle": {
+    "url": "bundles/common.zip",
+    "bytes": 11526763,
+    "sha256": "6d58a1c1cee35436eba672157590b361a5fb16ddb1816e54036f915f1e9d61d1",
+    "contentHash": "8ab6008a775609a3",
+    "files": 78
+  }
+}

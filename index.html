@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/nomads-way-site/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Қазақ хандығы туралы интерактивті оқиға және ҰБТ сұрақтары. Интерактивная история о Казахском ханстве и вопросы формата ЕНТ.">
+  <meta name="theme-color" content="#2A2019">
+
+  <!-- карточка ссылки в Threads, Telegram, WhatsApp: адреса только полные -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nomad's Way">
+  <meta property="og:title" content="Nomad's Way: Қазақстан тарихы, ҰБТ">
+  <meta property="og:description" content="Интерактивная история о Казахском ханстве и вопросы формата ЕНТ по истории Казахстана.">
+  <meta property="og:url" content="https://marattanirbergen01.github.io/nomads-way-site/">
+  <meta property="og:image" content="https://marattanirbergen01.github.io/nomads-way-site/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Nomad's Way">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Nomad's Way: Қазақстан тарихы, ҰБТ</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html, body { margin: 0; height: 100%; background: #2A2019; }
+    #splash { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; box-sizing: border-box; text-align: center; color: #EDE3D0; font: 15px/1.5 -apple-system, "Segoe UI", Roboto, sans-serif; }
+    #splash b { color: #D9A441; letter-spacing: 3px; margin-bottom: 8px; }
+    #splash a { color: #D9A441; }
+    #splash-slow { display: none; max-width: 360px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div id="splash">
+    <b>NOMAD'S WAY</b>
+    <span>Жүктелуде… / Загрузка…</span>
+    <div id="splash-slow">Ұзаққа созылса, бетті жаңартыңыз немесе жазыңыз.<br>Если загрузка затянулась, обновите страницу или напишите:<br><a href="https://t.me/marattanirbergen01">Telegram</a> · <a href="tel:+77067101011">+7 706 710 10 11</a></div>
+    <noscript>Ойынға JavaScript керек. / Для игры нужен JavaScript.</noscript>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () { document.getElementById('splash').remove(); });
+    setTimeout(function () { var e = document.getElementById('splash-slow'); if (e) e.style.display = 'block'; }, 20000);
+  </script>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
